@@ -1,0 +1,171 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(230,237,239,1) 46%, rgba(177,206,212,1) 100%);
+  font-family: 'Recursive', monospace;
+  margin: 50px 0px 50px 60px;
+  padding: 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #373fff;
+}
+
+header {
+  margin-top: 100px;
+  margin-right: 100px;
+ 
+}
+
+nav {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+footer{
+  font-size:0.7rem;
+  margin-left: -85px;
+}
+
+.srow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+
+.scolumn {
+  flex: 3%;
+  max-width: 3%;
+  padding: 0 50px;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 3%;
+  max-width: 3%;
+  padding: 0 50px;
+}
+
+.column img {
+  margin-top: 100px;
+  padding: 0px;
+  vertical-align: middle;
+  width: 100%;
+  
+}
+
+section div div img {
+  margin-top: 100px;
+  padding: 0px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+section div div p {
+  margin: 100px 0px 0px 0px;
+  padding: 0px;
+  vertical-align: middle;
+  width: 100%;
+  font-size: 0.28rem;
+}
+
+
+  section div div img {
+  filter: grayscale(100%);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1200px) {
+  .column {
+    flex: 15%;
+    max-width: 15%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 30%;
+    max-width: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+body > header > nav > div {
+  padding-bottom: 20px;
+}
+
+.buttonmargin {
+  margin-top: 8px;
+  margin-left: -2px;
+}
+
+.closewindow {
+  setTimeout(function () {popupWindow.close();}, 3000);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #373fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 180px;
+}
+
+/* .circle {
+  height: 80px;
+  width: 400px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+#myTimestamp {
+  width: 100%;
+  display: none;
+  position: absolute;
+}
+
+#myCloud {
+  width: 100%;
+}

@@ -1,0 +1,112 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: normal;
+  color: black;
+  padding: 30px;
+}
+
+h3 {
+  padding: 30px 30px 2px 30px;
+  font-weight:400;
+}
+
+p {
+  margin-left: 30px;
+  padding: 3px;
+  color: #2d5fa5;
+}
+
+section {
+  margin-right: auto;
+  margin-left: auto;
+  width:60vw;
+}
+
+main {
+  margin:0 ;
+  padding: 0;
+  position: fixed;
+  transform-origin: left top;
+  transform: rotate(-90deg) translateX(-100%);  
+  width: 75vh;
+  height: 50px;
+  font-size:36px;
+}
+
+nav {
+  position: relative;
+  margin-left: 1160px;
+  margin-right: 200px;
+}
+
+div {
+  line-height: 2;
+}
+
+button {
+  display: inline-block;
+}
+
+hr {
+  padding: -10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#nav {
+  height: 8vh;
+}
+
+#mainq {
+  height: 900px;
+}
+
+#relatedq{
+  height: auto;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ab382f;
+  border: none;
+  border-radius: 15px;
+
+}
+
+.button:hover {
+  background-color: #9c322b;
+}
+
+.button:active {
+  background-color: #9c322b;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
